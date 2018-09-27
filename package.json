@@ -1,7 +1,7 @@
 {
   "name": "@writetome51/array-get-and-remove-all-before-or-after",
   "version": "1.0.0",
-  "description": "functions that check content of passed array and return boolean",
+  "description": "functions that remove and return sections of the array",
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
