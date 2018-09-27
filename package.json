@@ -1,29 +1,17 @@
 {
-  "name": "@writetome51/array-get-and-removers-intermediate",
+  "name": "@writetome51/array-get-and-remove-all-before-or-after",
   "version": "1.0.0",
   "description": "functions that check content of passed array and return boolean",
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/writetome51/array-get-and-removers-intermediate.git"
-  },
-  "keywords": [
-    "array",
-    "content"
-  ],
   "author": "Steve Thompson",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/writetome51/array-get-and-removers-intermediate/issues"
-  },
   "dependencies": {
-    "basic-data-handling": "latest",
-    "@writetome51/arrays-match": "latest",
     "@writetome51/array-and-index-validation": "latest",
-    "@writetome51/array-non-modifying-getters-basic": "latest",
-    "@writetome51/array-get-indexes-basic": "latest"
+    "@writetome51/array-get-indexes-basic": "latest",
+    "@writetome51/array-get-and-removers-basic": "latest",
+    "@writetome51/array-get-indexes-intermediate": "latest"
   }
 }

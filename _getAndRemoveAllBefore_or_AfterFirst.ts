@@ -1,4 +1,4 @@
-import { getFirstIndexOf } from '../../no_modify/get/indexes/getFirstIndexOf';
+import { getFirstIndexOf } from '@writetome51/array-get-indexes-basic/getFirstIndexOf';
 import { _getAndRemoveAllBeforeOrAfterIndex } from './_getAndRemoveAllBeforeOrAfterIndex';
 
 

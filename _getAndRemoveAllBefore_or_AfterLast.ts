@@ -1,4 +1,4 @@
-import { getLastIndexOf } from '../../no_modify/get/indexes/getLastIndexOf';
+import { getLastIndexOf } from '@writetome51/array-get-indexes-intermediate/getLastIndexOf';
 import { _getAndRemoveAllBeforeOrAfterIndex } from './_getAndRemoveAllBeforeOrAfterIndex';
 
 

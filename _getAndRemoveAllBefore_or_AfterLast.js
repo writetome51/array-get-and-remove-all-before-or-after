@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var getLastIndexOf_1 = require("../../no_modify/get/indexes/getLastIndexOf");
+var getLastIndexOf_1 = require("@writetome51/array-get-indexes-intermediate/getLastIndexOf");
 var _getAndRemoveAllBeforeOrAfterIndex_1 = require("./_getAndRemoveAllBeforeOrAfterIndex");
 // value cannot be object.
 function _getAndRemoveAllBefore_or_AfterLast(value, beforeOrAfter, array) {
