@@ -1,7 +1,7 @@
 import { ifIndexNotNegative_getActionResult }
 	from '@writetome51/array-and-index-validation/ifIndexNotNegative_getActionResult';
-import { getAndRemoveHead } from '@writetome51/array-get-and-removers-basic/getAndRemoveHead';
-import { getAndRemoveTail } from '@writetome51/array-get-and-removers-basic/getAndRemoveTail';
+import { getAndRemoveHead } from '@writetome51/array-get-and-remove-head-tail/getAndRemoveHead';
+import { getAndRemoveTail } from '@writetome51/array-get-and-remove-head-tail/getAndRemoveTail';
 
 
 // This does not allow negative indexes.
