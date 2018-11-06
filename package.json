@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-get-and-remove-all-before-or-after",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "functions that remove and return sections of the array",
   "main": "",
   "scripts": {
