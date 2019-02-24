@@ -2,16 +2,16 @@
   "name": "@writetome51/array-get-and-remove-all-before-or-after",
   "version": "1.0.4",
   "description": "functions that remove and return sections of the array",
-  "main": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "author": "Steve Thompson",
   "license": "MIT",
   "dependencies": {
-    "@writetome51/array-get-and-remove-head-tail": "~1.0.3",
-    "@writetome51/array-and-index-validation": "~1.0.3",
-    "@writetome51/array-get-indexes-basic": "~1.0.6",
-    "@writetome51/array-get-indexes-intermediate": "~1.0.4"
+    "@writetome51/array-get-and-remove-head-tail": "~1.0.4",
+    "@writetome51/array-and-index-validation": "~1.0.6",
+    "@writetome51/array-get-indexes": "~1.0.0"
   }
 }

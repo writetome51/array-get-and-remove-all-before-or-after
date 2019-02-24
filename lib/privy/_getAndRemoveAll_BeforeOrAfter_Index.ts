@@ -5,8 +5,10 @@ import { getAndRemoveHead, getAndRemoveTail  } from '@writetome51/array-get-and-
 
 // This does not allow negative indexes.
 
-export function _getAndRemoveAllBeforeOrAfterIndex(
-	index, beforeOrAfter: "before" | "after", array
+export function _getAndRemoveAll_BeforeOrAfter_Index(
+	index, 
+	beforeOrAfter: "before" | "after", 
+	array
 ): any[] {
 	return ifIndexNotNegative_getActionResult(index, () => {
 		if (beforeOrAfter === 'before') return getAndRemoveHead(index, array);
