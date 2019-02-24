@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-get-and-remove-all-before-or-after",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "functions that remove and return sections of the array",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
