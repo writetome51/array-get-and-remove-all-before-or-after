@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-get-and-remove-all-before-or-after",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "functions that remove and return sections of the array",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,8 +10,8 @@
   "author": "Steve Thompson",
   "license": "MIT",
   "dependencies": {
-    "@writetome51/array-get-and-remove-head-tail": "~1.0.4",
-    "@writetome51/array-and-index-validation": "~1.0.6",
-    "@writetome51/array-get-indexes": "~1.0.0"
+    "@writetome51/array-get-indexes": "~1.0.1",
+    "@writetome51/array-get-and-remove-adjacent-at": "~1.0.5",
+    "error-if-index-is-negative": "~1.0.0"
   }
 }

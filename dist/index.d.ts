@@ -8,12 +8,12 @@ export declare function _getAndRemoveAll_BeforeOrAfter_First(
 export declare function _getAndRemoveAll_BeforeOrAfter_Last(
 	value: any,
 	beforeOrAfter: "before" | "after",
-	array: any
+	array: any[]
 ): any[];
 
 
 export declare function _getAndRemoveAll_BeforeOrAfter_Index(
-	index: any,
+	index: number,
 	beforeOrAfter: "before" | "after",
 	array: any[]
 ): any[];

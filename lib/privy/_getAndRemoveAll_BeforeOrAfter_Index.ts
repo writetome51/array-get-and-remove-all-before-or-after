@@ -1,17 +1,19 @@
-import { ifIndexNotNegative_getActionResult }
-	from '@writetome51/array-and-index-validation/ifIndexNotNegative_getActionResult';
-import { getAndRemoveHead, getAndRemoveTail  } from '@writetome51/array-get-and-remove-head-tail';
+import { errorIfIndexIsNegative } from 'error-if-index-is-negative';
+import { getAndRemoveAdjacentAt } from '@writetome51/array-get-and-remove-adjacent-at';
 
 
 // This does not allow negative indexes.
 
 export function _getAndRemoveAll_BeforeOrAfter_Index(
-	index, 
-	beforeOrAfter: "before" | "after", 
+	index,
+	beforeOrAfter: "before" | "after",
 	array
 ): any[] {
-	return ifIndexNotNegative_getActionResult(index, () => {
-		if (beforeOrAfter === 'before') return getAndRemoveHead(index, array);
-		if (beforeOrAfter === 'after') return getAndRemoveTail((array.length - index - 1), array);
-	});
+	errorIfIndexIsNegative(index);
+
+	if (beforeOrAfter === 'before') return getAndRemoveAdjacentAt(0, index, array);
+	if (beforeOrAfter === 'after') {
+		let numToRemove = (array.length - index - 1);
+		return getAndRemoveAdjacentAt(-numToRemove, numToRemove, array);
+	}
 }
